@@ -1,7 +1,7 @@
 public class Vehicle
 {
     // Physical props
-    private int ManyWheels;
+    private int NumberOfWheels;
     private int WeightKg;
     // Identification props
     private string  Brand;
@@ -12,9 +12,9 @@ public class Vehicle
     private bool IsWorking = true;
     private bool IsService = false;
 
-public Vehicle(int manyWheels, int weightKg, string brand, string model, int fabYear, string color)
+public Vehicle(int numberOfWheels, int weightKg, string brand, string model, int fabYear, string color)
 {
-    ManyWheels = manyWheels;
+    NumberOfWheels = numberOfWheels;
     WeightKg = weightKg;
     Brand = brand;
     Model = model;
